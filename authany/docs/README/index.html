@@ -1,0 +1,271 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>AuthAny &mdash; Federated Identity</title>
+	
+	<meta name="description" content="AuthAny">
+	<meta name="author" content="Clone UI">
+	<meta name="copyright" content="Clone UI">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2013-10-16T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	<link rel="stylesheet" href="assets/css/custom.css" media="screen">
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/cufon.js"></script><script src="assets/js/font.js"></script><script>Cufon.replace("h1, h2, h3, h4, h5, h6");</script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;}
+		::-moz-selection{background:#111111;color:#F1F1F1;}
+		::selection{background:#111111;color:#F1F1F1;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#111111;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -ms-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -webkit-gradient(linear, 0 0, 0 585858%, from(#333333), to(#3B3B3B));
+			  background-image: -webkit-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -o-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: linear-gradient(top, #585858, #3B3B3B);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#585858', endColorstr='#3B3B3B', GradientType=0);
+			  border-color: #3B3B3B #3B3B3B #bfbfbf;
+			  color:#F9F9F9;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #585858 #585858 #bfbfbf;
+		  background-color: #3B3B3B;
+		}
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#333333;color:#F1F1F1;http://docs.igclone.com/images/noise.gif}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+		#documenter_sidebar ul{border-top:1px solid #222222;}
+		#documenter_sidebar ul a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+		#documenter_sidebar ul a:hover{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_sidebar ul a.current{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-ig-clone">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#what_is_authany" title="What is AuthAny?">What is AuthAny?</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#server_requirements" title="Server Requirements">Server Requirements</a></li>
+			<li><a href="#install" title="Install">Install</a></li>
+			<li><a href="#encoded_files" title="Encoded Files">Encoded Files</a></li>
+			<li><a href="#technology" title="Technology">Technology</a></li>
+			<li><a href="#license" title="License">License</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+			<li><a href="#changelog" title="Changelog">Changelog</a></li>
+
+		</ul>
+		<div id="documenter_copyright">&copy; 2013 - 2014 BizLogic</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>AuthAny</h1>
+	<h2>Federated Identity / Social Login</h2>
+	<div id="documenter_buttons">
+		<a href="http://demo.authany.com" class="btn btn-primary btn-large">Demo</a> 
+	</div>
+	<hr>
+	<ul>
+		<li>Created: 06/24/2014</li>
+		<li>Last Update: 11/11/2014</li>
+		<li>Author: BizLogic</li>
+		<li><a href=""></a></li>
+		<li>email: <a href="mailto:support@authany.com">support@authany.com</a></li>
+	</ul>
+	</section>
+	
+	<section id="what_is_authany">
+	<div class="page-header">
+	   <h3>What is AuthAny?</h3>
+	   <hr class="notop">
+	</div>
+	<p>
+	AuthAny facilitates Federated Identity by enabling Federated / Social Login on your web property via trusted third party systems. 
+	</p>
+<ul>
+	<li>
+		<a href="#server_requirements">Server Requirements</a></li>
+	<li>
+		<a href="#install">How to Install?</a></li>
+	<li>
+		<a href="#support">Support</a></li>		
+</ul>
+</section>
+<section id="features">
+	<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Allow authentication via 17 third party providers
+		<ol type="1">
+			<li>Disqus</li>
+			<li>Facebook</li>
+			<li>Foursquare</li>
+			<li>GitHub</li>
+			<li>Gmail</li>
+			<li>Google</li>
+			<li>Google+</li>
+			<li>Instagram</li>
+			<li>LinkedIn</li>
+			<li>SoundCloud</li>
+			<li>Tumblr</li>
+			<li>Twitter</li>
+			<li>VK (VKontakte)</li>
+			<li>Vimeo</li>
+			<li>Windows Live</li>
+			<li>Yahoo!</li>
+			<li>YouTube</li>
+		</ol>		
+	</li>
+</ul>
+</section>
+<section id="server_requirements">
+    <div class="page-header">
+        <h3>Server Requirements</h3>
+        <hr class="notop">
+    </div>
+	<ul>
+	    <li>
+        PHP 5.x      
+	    </li>
+	    <li>
+	    A webserver (Apache is recommended)
+	    </li>
+	</ul>
+</section>
+<section id="install">
+	<div class="page-header">
+	   <h3>Install</h3>
+	   <hr class="notop">
+	</div>
+<ol>
+	<li>
+		Full Installation Guide:
+		<ul>
+            <li>
+              <a href="http://wiki.authany.com/index.php?title=Install" target="_blank">http://wiki.authany.com/index.php?title=Install</a>
+            </li>		
+		    <li>
+		      <a target="_blank" href="http://web.archive.org/web/20141111134339/http://wiki.authany.com/index.php?title=Install">http://web.archive.org/web/20141111134339/http://wiki.authany.com/index.php?title=Install</a>
+		    </li>
+		</ul>		
+	</li>
+	<li>
+		Problems, bugs? We offer free support for 60 days after purchase:&nbsp; <a href="mailto:support@authany.com">support@authany.com</a></li>
+</ol>
+</section>
+<section id="encoded_files">
+	<div class="page-header"><h3>Encoded Files</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Zero (0)</li>
+</ul>
+</section>
+<section id="technology">
+	<div class="page-header"><h3>Technology</h3><hr class="notop"></div>
+<ul>
+	<li>
+		AJAX
+	</li>
+    <li>
+        Bootstrap
+    </li>	
+	<li>
+		CSS</li>
+	<li>
+		HTML</li>
+	<li>
+		JavaScript</li>
+	<li>
+		jQuery Mobile</li>
+	<li>
+		jQuery UI
+	</li>
+	<li>
+		MySQL
+	</li>
+    <li>
+        OAuth
+    </li>
+	<li>
+		PHP
+	</li>
+</ul>
+</section>
+<section id="license">
+	<div class="page-header"><h3>License</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Commercial
+    </li>
+	<li>
+		One Domain per license, this does not include subdomains</li>
+</ul>
+</section>
+			<section id="support">
+				<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+			<ol>
+				<li>
+					Free Support for 60 Days after purchase</li>
+				<li>
+					Free Bugfixes</li>
+				<li>
+					Free Upgrades for your purchased version. i.e. if you purchase version 1.0, then any future iteration in the 1.x line is free of charge.</li>
+			</ol>
+			</section>
+			<section id="changelog">
+				<div class="page-header">
+				   <h3>Changelog</h3>
+				   <hr class="notop">
+				</div>
+			    
+			    <h4 id="changelog_version_10">Version 1.0 (June 24, 2014)</h4>
+			    <ul>
+			     <li>Initial Release</li>
+			    </ul>
+			    
+			    <br>
+			    
+                <h4 id="changelog_version_101">Version 1.0.1 (November 11, 2014)</h4>
+                <ul>
+                 <li>fixed:  welove.css</li>
+                 <li>fixed:  GitHub icon</li>
+				 <li>fixed:  PHP error display</li>
+				 <li>fixed:  AuthAny::setRequestedProvider()</li>                 
+                </ul>			    
+			</section>
+
+	   </div>
+    </body>
+</html>

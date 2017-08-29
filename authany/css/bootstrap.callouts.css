@@ -1,0 +1,20 @@
+.bs-callout {
+    border-left: 3px solid #EEEEEE;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.bs-callout-info {
+    background-color: #F4F8FA;
+    border-color: #5BC0DE;
+}
+
+.bs-callout-danger {
+    background-color: #FDF7F7;
+    border-color: #D9534F;
+}
+
+.bs-callout-warning {
+    background-color: #FCF8F2;
+    border-color: #F0AD4E;
+}

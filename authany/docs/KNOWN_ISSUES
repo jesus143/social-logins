@@ -1,0 +1,11 @@
+1. Facebook -- there is a possibilty that Facebook's API may not return an e-mail address. Reason as reported by Facebook:
+
+1a. No Email address on account 
+1b. No confirmed email address on account 
+1c. No verified email address on account 
+1d. User entered a security checkpoint which required them to reconfirm their email address and they have not yet done so 
+1e. Users's email address is unreachable 
+1f. You also need the 'email' extended permission, even for users who have a valid, confirmed, reachable email address on file. 
+
+
+Further details:  https://developers.facebook.com/bugs/298946933534016
