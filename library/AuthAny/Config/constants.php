@@ -13,8 +13,9 @@
 */
 
 date_default_timezone_set('UTC');
-define( 'AUTHANY_DEBUG', false );
-define( 'AUTHANY_BASEURL', 'http://suite.social/coder/share/connect' );
+define( 'AUTHANY_DEBUG', true );
+//define( 'AUTHANY_BASEURL', 'http://suite.social/coder/share/connect' );
+define( 'AUTHANY_BASEURL', 'http://localhost/erwin/testing/social-logins' );
 define( 'AUTHANY_ROOT', dirname( dirname( __FILE__ ) ) );
 define( 'AUTHANY_LOGIN_ROOT', '/login/' );
 define( 'AUTHANY_LIB_ROOT', dirname( AUTHANY_ROOT ) );

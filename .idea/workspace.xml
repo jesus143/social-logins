@@ -1,7 +1,643 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d65c7b5c-1595-4d8b-a8fb-e26a09f7b889" name="Default" comment="" />
+    <list default="true" id="d65c7b5c-1595-4d8b-a8fb-e26a09f7b889" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client1.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/datatables/DataTables-1.10.12/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/datatables/DataTables-1.10.12/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/datatables/DataTables-1.10.12/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/datatables/DataTables-1.10.12/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/datatables/DataTables-1.10.12/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/datatables/datatables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/datatables/datatables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/image/messanger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/assests/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/custom/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/custom/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/deleteuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/downloadcsv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-share/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/bootstrap.callouts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/jquery-ui/themes/jface/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/socicon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/css/zocial.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/ABOUT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/KNOWN_ISSUES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/css/documenter_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/images/ci_line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/images/noise.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/js/cufon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/js/font.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/js/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/js/jquery.scrollTo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/assets/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/docs/README/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/font-awesome/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/font-awesome/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/font-awesome/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/font-awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/font-awesome/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/socicon/socicon-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/socicon/socicon-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/socicon/socicon-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/socicon/socicon-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/welove.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/zocial-extract.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/zocial-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/zocial-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/zocial-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/zocial-regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/zocial-regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/welove/zocial/zocial.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/zocial/zocial-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/zocial/zocial-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/zocial/zocial-regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/fonts/zocial/zocial-regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/images/logo_120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/images/logo_16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/images/logo_20x20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/images/logo_64x64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/images/preloader/bootbox.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/images/preloader/default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/images/preloader/tools.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery-ui-1.9.2.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.animate-colors-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.blockUI.defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.blockUI.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.imgpreload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.linkify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.linkify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.serializejson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jquery.serializejson.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jstorage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/jstorage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/phpjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/js/phpjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Config/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Config/AuthAny.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Config/AuthAny.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Config/constants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Disqus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Flickr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Foursquare.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Github.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Gmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Google.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Googleplus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Instagram.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Linkedin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Soundcloud.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Tumblr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Twitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Vimeo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Vk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Windowslive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Yahoo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/Youtube.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/disqus.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/facebook.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/flickr.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/foursquare.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/github.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/gmail.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/google.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/googleplus.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/instagram.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/linkedin.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/soundcloud.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/tumblr.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/twitter.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/vimeo.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/vk.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/windowslive.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/yahoo.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Provider/config/youtube.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/AuthAny/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Auth/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Auth/AppIdentity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Auth/AssertionCredentials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Auth/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Auth/LoginTicket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Auth/OAuth2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Auth/Simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Cache/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Cache/Apc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Cache/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Cache/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Cache/Memcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Cache/Null.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Http/Batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Http/CacheParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Http/MediaFileUpload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Http/REST.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Http/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/IO/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/IO/Curl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/IO/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/IO/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/IO/cacerts.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/AdExchangeBuyer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/AdExchangeSeller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/AdSense.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/AdSenseHost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Analytics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/AndroidPublisher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/AppState.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Audit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Bigquery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Blogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Books.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/CivicInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Compute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Coordinate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Customsearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Datastore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Dfareporting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Dns.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/DoubleClickBidManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Doubleclicksearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Drive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Freebase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Fusiontables.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Games.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/GamesManagement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Genomics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/GroupsMigration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Groupssettings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/IdentityToolkit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Licensing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/MapsEngine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Mirror.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Oauth2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Orkut.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Pagespeedonline.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Plus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/PlusDomains.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Prediction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/QPXExpress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Replicapool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Reports.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Reseller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Resourceviews.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/SQLAdmin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/SiteVerification.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Spectrum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Storage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Taskqueue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Tasks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Translate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Urlshortener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/Webfonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/YouTube.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Service/YouTubeAnalytics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Signer/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Signer/P12.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Utils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Utils/URITemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Verifier/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Google/Verifier/Pem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/OAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Tumblr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Twitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/UUID.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Yahoo/YahooCurl.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Yahoo/YahooOAuthAccessToken.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Yahoo/YahooOAuthApplication.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Yahoo/YahooOAuthApplicationException.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Yahoo/YahooOAuthClient.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Yahoo/YahooOAuthRequestToken.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Yahoo/YahooYQLQuery.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zdm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Ini.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Writer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Writer/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Writer/FileAbstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Writer/Ini.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Writer/Json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Writer/Xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Writer/Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Config/Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Crypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Crypt/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Crypt/Hmac.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Crypt/Hmac/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Crypt/Rsa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Crypt/Rsa/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Crypt/Rsa/Key.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Http/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Http/Client/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Http/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Http/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Http/Response/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Json/Decoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Json/Encoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Json/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Json/Expr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Loader/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Loader/Autoloader/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Loader/Autoloader/Resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Loader/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Config/ConfigInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Consumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Http/AccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Http/RequestToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Http/UserAuthorization.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Http/Utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Signature/Hmac.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Signature/Plaintext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Signature/Rsa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Signature/SignatureAbstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Token/Access.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Token/AuthorizedRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Oauth/Token/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Registry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Uri.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Uri/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Uri/Http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Validate/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Validate/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Validate/Hostname.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Validate/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/library/Zend/Validate/Ip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/authany/logs/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/error_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id1_1683869308605358.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id1_1683869308605358.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id1_1847603778838832.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id1_1847603778838832.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id1_jhevK-Fhlv.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id1_jhevK-Fhlv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_104650794032824078495.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_104650794032824078495.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_109209232149937004051.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_109209232149937004051.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_110876314265592500110.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_110876314265592500110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_1683869308605358.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_1683869308605358.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_355546341.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_355546341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_jhevK-Fhlv.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id2_jhevK-Fhlv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_101178882918948788797.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_101178882918948788797.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_102197618929678587454.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_102197618929678587454.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_109209232149937004051.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_109209232149937004051.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_110876314265592500110.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_110876314265592500110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_117828109533027660530.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_117828109533027660530.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_1683869308605358.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_1683869308605358.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_1847603778838832.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_1847603778838832.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_355546341.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_355546341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_896628489285009409.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_896628489285009409.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_EmWh9uwCEf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_EmWh9uwCEf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_Jp3piTqvZ7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_Jp3piTqvZ7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_jhevK-Fhlv.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/id3_jhevK-Fhlv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Config/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Config/AuthAny.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Config/AuthAny.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Config/constants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Config/constants.php200617" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Disqus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Facebook.php200617" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Flickr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Foursquare.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Github.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Gmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Google.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Googleplus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Instagram.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Linkedin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Soundcloud.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Tumblr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Twitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Vimeo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Vk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Windowslive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Yahoo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/Youtube.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/disqus.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/facebook.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/facebook.ini200617" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/flickr.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/foursquare.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/github.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/gmail.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/google.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/googleplus.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/instagram.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/linkedin.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/soundcloud.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/tumblr.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/twitter.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/vimeo.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/vk.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/windowslive.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/yahoo.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Provider/config/youtube.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/AuthAny/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Auth/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Auth/AppIdentity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Auth/AssertionCredentials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Auth/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Auth/LoginTicket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Auth/OAuth2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Auth/Simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Cache/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Cache/Apc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Cache/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Cache/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Cache/Memcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Cache/Null.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Http/Batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Http/CacheParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Http/MediaFileUpload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Http/REST.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Http/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/IO/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/IO/Curl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/IO/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/IO/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/IO/cacerts.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/AdExchangeBuyer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/AdExchangeSeller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/AdSense.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/AdSenseHost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Analytics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/AndroidPublisher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/AppState.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Audit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Bigquery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Blogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Books.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/CivicInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Compute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Coordinate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Customsearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Datastore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Dfareporting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Dns.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/DoubleClickBidManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Doubleclicksearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Drive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Freebase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Fusiontables.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Games.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/GamesManagement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Genomics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/GroupsMigration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Groupssettings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/IdentityToolkit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Licensing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/MapsEngine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Mirror.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Oauth2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Orkut.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Pagespeedonline.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Plus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/PlusDomains.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Prediction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/QPXExpress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Replicapool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Reports.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Reseller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Resourceviews.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/SQLAdmin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/SiteVerification.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Spectrum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Storage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Taskqueue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Tasks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Translate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Urlshortener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/Webfonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/YouTube.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Service/YouTubeAnalytics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Signer/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Signer/P12.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Utils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Utils/URITemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Verifier/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Google/Verifier/Pem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/OAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Tumblr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Twitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/UUID.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Yahoo/YahooCurl.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Yahoo/YahooOAuthAccessToken.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Yahoo/YahooOAuthApplication.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Yahoo/YahooOAuthApplicationException.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Yahoo/YahooOAuthClient.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Yahoo/YahooOAuthRequestToken.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Yahoo/YahooYQLQuery.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zdm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Ini.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Writer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Writer/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Writer/FileAbstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Writer/Ini.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Writer/Json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Writer/Xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Writer/Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Config/Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Hmac.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Hmac/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Rsa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Rsa/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Rsa/Key.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Rsa/Key/Private.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Crypt/Rsa/Key/Public.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Http/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Http/Client/Adapter/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Http/Client/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Http/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Http/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Http/Response/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Json/Decoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Json/Encoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Json/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Json/Expr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Loader/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Loader/Autoloader/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Loader/Autoloader/Resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Loader/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Config/ConfigInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Consumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Http/AccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Http/RequestToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Http/UserAuthorization.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Http/Utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Signature/Hmac.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Signature/Plaintext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Signature/Rsa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Signature/SignatureAbstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Token/Access.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Token/AuthorizedRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Oauth/Token/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Registry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Uri.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Uri/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Uri/Http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Validate/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Validate/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Validate/Hostname.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Validate/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library_OLD/Zend/Validate/Ip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor__117828109533027660530.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor__355546341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id1_1683869308605358.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id1_1847603778838832.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id1_jhevK-Fhlv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id2_104650794032824078495.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id2_109209232149937004051.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id2_110876314265592500110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id2_1683869308605358.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id2_355546341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id2_jhevK-Fhlv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_101178882918948788797.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_102197618929678587454.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_109209232149937004051.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_110876314265592500110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_117828109533027660530.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_1683869308605358.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_1847603778838832.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_355546341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_896628489285009409.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_EmWh9uwCEf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_Jp3piTqvZ7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor_id3_jhevK-Fhlv.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/core.js" afterPath="$PROJECT_DIR$/assets/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/AuthAny.php" afterPath="$PROJECT_DIR$/library/AuthAny.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/AuthAny/Config/constants.php" afterPath="$PROJECT_DIR$/library/AuthAny/Config/constants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/AuthAny/Provider/Facebook.php" afterPath="$PROJECT_DIR$/library/AuthAny/Provider/Facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/AuthAny/Provider/config/facebook.ini" afterPath="$PROJECT_DIR$/library/AuthAny/Provider/config/facebook.ini" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index-org.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/.htaccess" afterPath="$PROJECT_DIR$/files/logs/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/php/08-20-2017.log" afterPath="$PROJECT_DIR$/files/logs/php/08-20-2017.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/php/08-21-2017.log" afterPath="$PROJECT_DIR$/files/logs/php/08-21-2017.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/php/08-22-2017.log" afterPath="$PROJECT_DIR$/files/logs/php/08-22-2017.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/php/08-25-2017.log" afterPath="$PROJECT_DIR$/files/logs/php/08-25-2017.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/php/08-26-2017.log" afterPath="$PROJECT_DIR$/files/logs/php/08-26-2017.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/php/08-27-2017.log" afterPath="$PROJECT_DIR$/files/logs/php/08-27-2017.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/php/08-28-2017.log" afterPath="$PROJECT_DIR$/files/logs/php/08-28-2017.log" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,102 +646,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gmail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Gmail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="207" column="4" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Google.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Google.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Googleplus.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Googleplus.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instagram.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Instagram.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Soundcloud.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Soundcloud.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index (NEW).php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index (NEW).php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Linkedin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Linkedin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthAny.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Config/AuthAny.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthAny.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/AuthAny.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthAny.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authany/library/AuthAny.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="118" column="20" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -115,17 +661,65 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$AuthAny</find>
-      <find>$_SESSION['network']['display_name']</find>
-      <find>javascipt:void(0);</find>
+      <find>l</find>
+      <find>logged_in</find>
+      <find>AuthAny</find>
+      <find>login</find>
+      <find>$sharelock</find>
+      <find>admin</find>
+      <find>zocial</find>
+      <find>3c3a0d2a95b5ff7f7da778b89f0bfb12</find>
+      <find>s</find>
+      <find>sc</find>
+      <find>sco</find>
+      <find>user_birthday</find>
+      <find>redirect_uri</find>
+      <find>102018820150735</find>
+      <find>$numeric_prefix</find>
+      <find>scope</find>
+      <find>fields</find>
+      <find>apiEndpoint</find>
+      <find>scopequery_scope</find>
+      <find>grammarly-ghost</find>
+      <find>getUserDetails</find>
+      <find>print</find>
+      <find>echo</find>
+      <find>logout</find>
+      <find>$isSocialLoggedIndefine</find>
+      <find>define('BASEDIR'</find>
+      <find>BASEDIR</find>
+      <find>handleAccessToken</find>
+      <find>handleRequest</find>
+      <find>define</find>
     </findStrings>
     <dirStrings>
+      <dir>D:\xampp\htdocs\erwin\testing\social-logins\assets</dir>
       <dir>D:\xampp\htdocs\erwin\testing\social-logins</dir>
+      <dir>D:\xampp\htdocs\erwin\testing\social-logins\library</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/index (NEW).php" />
+        <option value="$PROJECT_DIR$/client1.php" />
+        <option value="$PROJECT_DIR$/library/AuthAny/Provider/config/twitter.ini" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/library/AuthAny/Config/constants.php" />
+        <option value="$PROJECT_DIR$/index-test.php" />
+        <option value="$PROJECT_DIR$/library/AuthAny.php" />
+        <option value="$PROJECT_DIR$/assets/js/core.js" />
+        <option value="$PROJECT_DIR$/index-body-test.php" />
+        <option value="$PROJECT_DIR$/library/AuthAny/Provider/config/facebook.ini" />
+        <option value="$PROJECT_DIR$/print_debug.php" />
+        <option value="$PROJECT_DIR$/index-original.php" />
+        <option value="$PROJECT_DIR$/index-working.php" />
+        <option value="$PROJECT_DIR$/index-orig.php" />
+        <option value="$PROJECT_DIR$/library/AuthAny/Provider/Facebook.php" />
+        <option value="$PROJECT_DIR$/index-ui-login.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -143,6 +737,7 @@
     <option name="width" value="1382" />
     <option name="height" value="738" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -151,14 +746,14 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,64 +766,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social-logins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social-logins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social-logins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social-logins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AuthAny" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social-logins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social-logins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AuthAny" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\erwin\testing\social-logins" />
+      <recent name="D:\xampp\htdocs\erwin\testing\social-logins\files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,6 +833,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -316,32 +873,33 @@
       <option name="presentableId" value="Default" />
       <updated>1503950056542</updated>
       <workItem from="1503950058026" duration="1679000" />
+      <workItem from="1504110414078" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1679000" />
+    <option name="totallyTimeSpent" value="28242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -356,122 +914,298 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/visitor_id2_110876314265592500110.txt" />
+    <entry file="file://$PROJECT_DIR$/visitor_id2_jhevK-Fhlv.txt" />
+    <entry file="file://$PROJECT_DIR$/visitor_id3_1683869308605358.txt" />
+    <entry file="file://$PROJECT_DIR$/visitor_id3_896628489285009409.txt" />
+    <entry file="file://$PROJECT_DIR$/visitor_id3_102197618929678587454.txt" />
+    <entry file="file://$PROJECT_DIR$/visitor__355546341.txt" />
+    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/config/facebook.ini" />
+    <entry file="file://$PROJECT_DIR$/library/Twitter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3596">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/Twitter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/logs/php/08-29-2017.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11309">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/config/twitter.ini" />
+    <entry file="file://$PROJECT_DIR$/visitor_id3_Jp3piTqvZ7.txt" />
+    <entry file="file://$PROJECT_DIR$/id3_Jp3piTqvZ7.txt" />
+    <entry file="file://$PROJECT_DIR$/visitor_id2_1139789095.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id2_1139789095.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id2_1139789095.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_log" />
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharelock.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="202" column="18" lean-forward="false" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authany/index.php">
+    <entry file="file://$PROJECT_DIR$/files/authany/js/jquery.blockUI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6375">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-134">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/id3_Jp3piTqvZ7.txt">
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny.php">
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/twitter.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="118" column="20" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/AuthAny.php">
+    <entry file="file://$PROJECT_DIR$/library/Google/Auth/OAuth2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="223">
+          <caret line="106" column="66" lean-forward="false" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/foursquare.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/instagram.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Zend/Config/Ini.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Config/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Config/AuthAny.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/AuthAny/Config/AuthAny.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="597" column="55" lean-forward="false" selection-start-line="597" selection-start-column="40" selection-end-line="597" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="498" column="20" lean-forward="false" selection-start-line="498" selection-start-column="20" selection-end-line="498" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/facebook.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-work.php" />
+    <entry file="file://$PROJECT_DIR$/index-body-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/Facebook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-original.php" />
+    <entry file="file://$PROJECT_DIR$/index-work.php" />
+    <entry file="file://$PROJECT_DIR$/print_debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-test-edit-template.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library_OLD/AuthAny/Provider/Googleplus.php">
+    <entry file="file://$PROJECT_DIR$/index-ui-login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="219" column="12" lean-forward="false" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Gmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="207" column="4" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Google.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Googleplus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Instagram.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Soundcloud.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Provider/Linkedin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authany/library/AuthAny/Config/AuthAny.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#8#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/googleplus.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/google.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/youtube.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AuthAny/Provider/config/linkedin.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-work-auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-org.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index (NEW).php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -1,19 +1,7 @@
 <?php
-error_reporting(0);
-ob_start();
-session_start();
-//print "<pre>";
-//print_r($_SESSION);
-//print "</pre>";
-if(
-    !empty($_SESSION['facebook']) ||
-    !empty($_SESSION['twitter']) ||
-    !empty($_SESSION['googleplus']) ||
-    !empty($_SESSION['youtube']) ||
-    !empty($_SESSION['linkedin'])
-) {
-    require_once ('index-org.php');
-} else {
+    ob_start();
+    session_start();
+
 
     if($_GET['logout123'] == 'logout now') {
         session_destroy();
@@ -37,7 +25,6 @@ if(
 
     require_once('AuthAny/Config/AuthAny.php');
     $AuthAny->handleRequest();
+    require_once 'index-body-test.php';
 
-    require_once ('index-ui-login.php');
-}
-require_once ('print_debug.php.php');
+?>

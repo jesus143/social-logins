@@ -47,25 +47,34 @@ class AuthAny_Provider_Facebook extends AuthAny
 	*/	
 	public function handleAuth($config = array())
 	{
-		if( strlen( @$_COOKIE[$this->_provider.'_access_token'] ) ) {
-			return $this->handleAccessToken( 
-				array( 
-					'access_token' => $_COOKIE[$this->_provider.'_access_token'] 
-				) 
-			);
+         if( strlen( @$_COOKIE[$this->_provider.'_access_token'] ) ) {
+//         if(!empty($_SESSION['facebook'])) {
+            return $this->handleAccessToken(
+                array(
+                    'access_token' => $_COOKIE[$this->_provider . '_access_token']
+                )
+            );
+//         }
 		} else {
 			$params = array(
 				'client_id'		=> $this->_envConfig->appId,
-				'state'			=> UUID::mint( 4 )->__toString(),
-				'scope'			=> $this->_apiConfig->scope,
+                'redirect_uri'	=> AUTHANY_BASEURL.'/'.$this->_envConfig->redirectUri,
+                'scope'			=> $this->_apiConfig->scope,
+                'state'			=> UUID::mint( 4 )->__toString(),
 				'response_type'	=> $this->_apiConfig->responseType,
-				'redirect_uri'	=> AUTHANY_BASEURL.'/'.$this->_envConfig->redirectUri
+
 			);
-			
-			$apiEndpoint = $this->_apiConfig->authEndpoint.'?'.http_build_query( $params );
-			header('Location: ' . $apiEndpoint );			
+
+			$apiEndpoint = rawurldecode($this->_apiConfig->authEndpoint.'?'.http_build_query( $params));
+
+
+//            exit;
+//			print rawurldecode($apiEndpoint);
+
+//			exit;
+			header('Location: ' . $apiEndpoint  );
 		}
-	}	
+	}
 	
 	/**
 	 * Handle Authentication Code
@@ -140,7 +149,8 @@ class AuthAny_Provider_Facebook extends AuthAny
 					'client_id'		=> $this->_envConfig->appId,
 					'client_secret'	=> $this->_envConfig->appSecret,
 					'code'			=> $code,
-					'redirect_uri'	=> AUTHANY_BASEURL.'/'.$this->_envConfig->redirectUri
+					'redirect_uri'	=> AUTHANY_BASEURL.'/'.$this->_envConfig->redirectUri,
+
 			);
 	
 			$apiEndpoint	= $this->_apiConfig->oauthEndpoint.'?'.http_build_query( $params );
@@ -175,14 +185,20 @@ class AuthAny_Provider_Facebook extends AuthAny
 	*/	
 	public function getUserDetails( $accessToken )
 	{
-		//$apiEndpoint = $this->_apiConfig->apiEndpoint.'/me?access_token='.$accessToken;
-		$apiEndpoint = $this->_apiConfig->apiEndpoint.'/me?fields='.$this->_apiConfig->scope.'&access_token='.$accessToken;
+        // $scope = 'email,name,birthday,locale,cover,first_name,last_name,age_range,link,gender,picture,timezone,updated_time,verified';
+		$apiEndpoint = $this->_apiConfig->apiEndpoint.'/me?fields='.$this->_apiConfig->scope_query.'&access_token='.$accessToken;
+        //		print " endpoint " . $apiEndpoint;
 		$apiResponse = json_decode( $this->curl_get_url( $apiEndpoint ), true );
 		$apiResponse = $this->objectToArray( $apiResponse );
+
+
 		if( isset( $apiResponse['id'] ) ) {
 			$apiResponse['avatar'] = 'https://graph.facebook.com/'.$apiResponse['id'].'/picture';
 		}	
-                $apiResponse['network'] = 'facebook';		
+                $apiResponse['network'] = 'facebook';
+                // print " endpoint " . $apiEndpoint;
+                // print_r($apiResponse);
+                // exit;
 		return $apiResponse;
 	}		
 }

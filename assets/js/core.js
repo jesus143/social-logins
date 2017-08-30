@@ -29,29 +29,31 @@ $(document).ready(function() {
 	});	
 	
 	$('.zocial').click(function(event) {
+
+		// alert("clicked social" + BASEURL);
 		event.preventDefault();
-		
+
 		var data	= $(this).data();
 		var network = data.network;
-		
+
 		if( typeof network === 'undefined' ) {
 			return false;
 		}
-		
-		switch( network ) {				
+
+		switch( network ) {
 			default:
 				$.blockUI({
 					'message': '<img border="0" src="'+ BASEURL + '/images/preloader/tools.gif">'
 				});
-				
+
 			window.location.assign( BASEURL + '/login/' + network );
 		}
-	});	
+	});
 	
 	$('.blockUI-trigger').click(function(event) {
 		$.blockUI();
 	});
-	
+
 });
 
 function percentOfDocumentHeight( percent )

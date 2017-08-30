@@ -390,7 +390,7 @@ class AuthAny {
 
 			$share_link = '';
 			if (isset($_SESSION[$provider]['id'])) {
-				$share_link = 'http://suite.social/coder/share/connect/'.$_SESSION['share_page'].'?id='.$_SESSION[$provider]['id'].'&cid='.$_SESSION['client_id'];
+				$share_link = 'http://localhost/erwin/testing/social-logins/coder/share/connect/'.$_SESSION['share_page'].'?id='.$_SESSION[$provider]['id'].'&cid='.$_SESSION['client_id'];
 			}
             $_SESSION['share_link'] = $share_link;
 
